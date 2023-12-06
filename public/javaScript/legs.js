@@ -23,14 +23,14 @@ const getLiftItem = (lift) => {
     console.log(lift);
   
     const img = document.createElement("img");
-    img.src = "https://colinelmore.github.io/242%20CSCE/projects%20-%20242/part4/pictures/" + lift.img;
-    const h5 = document.createElement("h5");
-    h5.innerText = lift.name;
+    img.src = "https://github.com/colinelmore/final/tree/main/public/pictures/" + lift.img;
+    const h2 = document.createElement("h2");
+    h2.innerText = lift.name;
 
     const p = document.createElement("p")
     p.innerText = lift.description;
 
-    liftSection.append(h5);
+    liftSection.append(h2);
     liftSection.append(img);
     liftSection.append(p);
     return liftSection;
