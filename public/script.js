@@ -101,14 +101,22 @@ const displayDetails = (food) => {
     foodDetails.append(p);
     p.innerHTML = food.description;
 
-    const ul = document.createElement("ul");
-    foodDetails.append(ul);
+    const p2 = document.createElement("p");
+    foodDetails.append(p2);
+    p2.innerHTML = food.reps;
+
+    const p3 = document.createElement("p");
+    foodDetails.append(p3);
+    p3.innerHTML = food.sets;
+
+   // const ul = document.createElement("ul");
+   // foodDetails.append(ul);
     //console.log(food.condiments);
-    food.condiments.forEach((condiment) => {
-        const li = document.createElement("li");
-        ul.append(li);
-        li.innerHTML = condiment;
-    });
+   // food.condiments.forEach((condiment) => {
+   //     const li = document.createElement("li");
+    //    ul.append(li);
+    //    li.innerHTML = condiment;
+   // });
 
     eLink.onclick = (e) => {
     e.preventDefault();
@@ -148,10 +156,12 @@ const populateEditForm = (food) => {
     form.id.value = food.id;
     form.name.value = food.name;
     form.description.value = food.description;
-    populateCondiments(food);
+    form.sets.value = food.sets;
+    form.reps.value = food.value;
+    //populateCondiments(food);
 };
 
-const populateCondiments = (food) => {
+/* const populateCondiments = (food) => {
      const section = document.getElementById("condiment-boxes");
      food.condiments.forEach((condiment)=> {
         const input = document.createElement("input");
@@ -159,7 +169,7 @@ const populateCondiments = (food) => {
         input.value = condiment;
         section.append(input)
      });
-}
+} */
 
 const addEditFood = async (e) => {
     e.preventDefault();
@@ -167,7 +177,7 @@ const addEditFood = async (e) => {
     const form = document.getElementById("add-edit-food-form");
     const formData = new FormData(form);
     let response;
-    formData.append("condiments", getCondiments());
+    //formData.append("condiments", getCondiments());
 
     if(form._id.value == -1){
         formData.delete("_id");
@@ -205,7 +215,7 @@ const addEditFood = async (e) => {
     showFoods();
 }; 
 
-const getCondiments = () => {
+/*const getCondiments = () => {
     const inputs = document.querySelectorAll("#condiment-boxes input");
     const condiments = [];
 
@@ -213,13 +223,13 @@ const getCondiments = () => {
         condiments.push(input.value);
     });
     return condiments;
-};
+}; */
 
 const resetForm = () => {
     const form = document.getElementById("add-edit-food-form");
     form.reset();
     form.foodId = "-1";
-    document.getElementById("condiment-boxes").innerHTML = " ";
+    //document.getElementById("condiment-boxes").innerHTML = " ";
 }
 
 const showHideAdd = (e) => {
@@ -229,18 +239,18 @@ const showHideAdd = (e) => {
     resetForm();
 }
 
-const addCondiment = (e) => {
+/* const addCondiment = (e) => {
     e.preventDefault();
     const section = document.getElementById("condiment-boxes");
     const input = document.createElement("input");
     input.type = "text";
     section.append(input);
-}
+} */
 
 
 window.onload = () => {
     document.getElementById("hamburger").onclick = toggleHam;
-    //showFoods();
+    showFoods();
     document.getElementById("add-edit-food-form").onsubmit = addEditFood;
     document.getElementById("add-link").onclick = showHideAdd;
 
@@ -248,7 +258,7 @@ window.onload = () => {
         document.querySelector(".dialog").classList.add("transparents");
     }
 
-    document.getElementById("add-condiment").onclick = addCondiment;
+   // document.getElementById("add-condiment").onclick = addCondiment;
 
     
     document.getElementById("small-nav").classList.add("hidden");

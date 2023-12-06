@@ -53,7 +53,8 @@ app.post("/api/foods", upload.single("img"), (req, res) => {
     const food = new Food ({
         name: req.body.name,
         description: req.body.description,
-        condiments: req.body.condiments.split(","),
+        reps: req.body.reps,
+        sets: reg.body.sets
     });
 
     if(req.file){
@@ -87,7 +88,8 @@ const updateFood = async (req, res) => {
     let fieldsToUpdate = {
       name: req.body.name,
       description: req.body.description,
-      condiments: req.body.condiments.split(","),
+      reps: req.body.reps,
+    sets: reg.body.sets
     };
   
     if (req.file) {
@@ -113,7 +115,9 @@ const validateFood = (food) => {
         id : Joi.allow(" "),
         name: Joi.string().min(3).required(),
         description: Joi.string().min(3).required(),
-        condiments: Joi.allow(""),
+        reps: Joi.string().min(1).required(),
+        sets: Joi.string().min(1).required(),
+
     });
 
     return schema.validate(food);
