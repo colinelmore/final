@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Bench Press",
+        "description":"During a bench press, the primary muscles at work are the pectoralis major (chest muscles), with support from the anterior deltoids and triceps. The upper back muscles also assist in maintaining proper posture. Bench presses are excellent for building chest strength, shoulder stability, and overall upper body muscle development, making them a fundamental exercise in strength training.",
+        "img":"benchpress.jpeg",
+        "category":"chest"
+    },
+    {
+        "name":"Incline Bench (Barbell/Dumbbell",
+        "description":"The incline bench, often used for exercises like incline bench press, is an adjustable bench that has an inclined or angled backrest. This piece of equipment is commonly found in gyms and allows individuals to perform various upper body exercises at an incline. The incline bench targets different muscle groups, such as the upper chest and anterior deltoids, compared to a flat bench. It's a versatile tool for building upper body strength and muscle definition while providing variation in your workout routine.",
+        "img":"incline.jpeg",
+        "category":"chest"
+    },
+    {
+        "name":"Dips",
+        "description":"Dips are a bodyweight exercise that involves lowering and raising your body by bending and straightening your arms. You typically perform dips using parallel bars or a dip station. This exercise primarily targets the triceps, chest, and shoulders, making it an effective way to build upper body strength and muscle definition. Dips can be customized to focus on different muscle groups by adjusting your body position and the width of your hand placement. They are a versatile and challenging bodyweight exercise commonly used in calisthenics and strength training programs.",
+        "img":"dips.jpeg",
+        "category":"chest"
+    },
+    {
+        "name":"Cable Flies",
+        "description":"Cable flies are a resistance exercise commonly performed at the gym using a cable machine. In this exercise, you stand between the two high pulleys, grasp the handles, and then bring your arms forward and together in a hugging motion. The primary muscles targeted during cable flies are the pectoral muscles (chest), particularly the pectoralis major. Cable flies are an effective isolation exercise for building chest strength and muscle definition. They allow for a continuous tension on the chest muscles throughout the range of motion, making  them a valuable addition to chest workouts. Proper form and control are essential when performing cable flies to maximize their benefits and reduce the risk of injury.",
+        "img":"flies.jpeg",
+        "category":"chest"
+    },
+    {
+        "name":"Push-Ups",
+        "description":"Push-ups are a classic bodyweight exercise that involves lowering your body to the ground and then pushing it back up using your arms. They are effective for building upper body strength and target multiple muscle groups, including the chest, shoulders, triceps, and core. Push-ups can be modified to suit different fitness levels and goals, making them a versatile exercise for improving overall upper body strength, endurance, and stability. They are a convenient and accessible exercise that can be done virtually anywhere, requiring no equipment. Proper form, such as maintaining a straight body and keeping the core engaged, is essential for safe and effective execution.",
+        "img":"pushups.jpeg",
+        "category":"chest"
+    }
+]

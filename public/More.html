@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <head>
+        <ul id="main-nav">
+            <li><a href="index.html">Home | </a></li>
+            <li><a href="Legs.html">Legs | </a></li>
+            <li><a href="Back.html">Back | </a></li>
+            <li><a href="Chest.html">Chest | </a></li>
+            <li><a href="Arms.html">Arms | </a></li>
+            <li><a href="Core.html">Core | </a></li>
+            <li><a href="LiftPlan.html">Lift Plan |</a></li>
+            <li><a href="More.html">More</a></li>
+        </ul>
+        <h1 id="main-head">More To Us</h1>
+    </head>
+    <div id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul id="small-nav">
+        <li><a href="index.html">Home</a></li>
+            <li><a href="Legs.html">Legs</a></li>
+            <li><a href="Back.html">Back</a></li>
+            <li><a href="Chest.html">Chest</a></li>
+            <li><a href="Arms.html">Arms</a></li>
+            <li><a href="Core.html">Core</a></li>
+            <li><a href="LiftPlan.html">Lift Plan </a></li>
+            <li><a href="More.html">More</a></li>
+    </ul>
+    <body>
+        <h4 id="more-body">In case you did not know where to start your fitness journey!</h4>
+        <p id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13228.695149901116!2d-81.02024255!3d34.0137498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1698018536195!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+
+
+        <div id="form">
+            <h2>Send us an email!</h2>
+        <form id= "contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="015fb642-2551-4261-84d1-d837c2be4c91">
+        <p>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" required>
+        </p>
+        <p>
+            <label for="message">Message:</label>
+            <textarea name="message" required></textarea>
+        </p>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            
+            <button type="submit">Submit Form</button>
+        
+        </form>
+        <div id="result"></div>
+    </div>
+    </body>
+</html>

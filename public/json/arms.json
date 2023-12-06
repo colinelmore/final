@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Dumbbell Curl",
+        "description":"During curls, the primary muscles engaged are the biceps brachii, responsible for elbow flexion, with support from the brachialis, brachioradialis, and shoulder muscles. Forearm muscles also play a role in controlling wrist movement. Curls effectively build upper arm strength, enhance grip strength and wrist stability, and improve overall arm definition, making them a versatile and essential exercise for upper body fitness.",
+        "img":"pictures/dumbbell-curl.jpeg",
+        "category":"arms"
+    },
+    {
+        "name":"Barbell Curl",
+        "description":"A barbell curl is a classic and effective strength training exercise that primarily targets the biceps, the muscles in the front of the upper arm. In a barbell curl, you stand with your feet shoulder-width apart, hold a barbell with both hands, and allow your arms to fully extend. Then, you bend your elbows to lift the barbell towards your shoulders while keeping your upper arms stationary. Barbell curls are a key exercise for developing bicep strength, size, and definition. They are commonly incorporated into upper body workouts and are versatile, as you can adjust the grip width to emphasize different aspects of the biceps. Proper form and controlled movements are crucial for achieving optimal results and preventing injury.",
+        "img":"barbell-curl.jpeg",
+        "category":"arms"
+    },
+    {
+        "name":"Skull Crushers",
+        "description":"Skull crushers, also known as lying tricep extensions or French presses, are a strength training exercise that targets the triceps, the muscles at the back of the upper arm. To perform skull crushers, you typically lie on a bench, hold a barbell or dumbbells with your arms fully extended over your chest, and then bend your elbows to lower the weight towards your forehead or just above. The name skull crushers comes from the need to be careful and avoid letting the weight actually touch your forehead. This exercise is effective for building tricep strength and muscle definition. It's often included in upper body workouts and is an excellent choice for developing strong, well-defined triceps. Proper form is important to prevent injury and maximize the benefits of this exercise.",
+        "img":"skull-crushers.jpeg",
+        "categorsy":"arms"
+    },
+    {
+        "name":"Single Arm Tricep Pushdown",
+        "description":"A single-arm tricep push-down is a resistance exercise commonly performed at the gym using a cable machine. In this exercise, you stand in front of the cable machine with a handle attachment, hold it with one hand, and push the handle down by extending your arm while keeping your upper arm close to your body. The primary muscle targeted is the triceps, which are responsible for extending the elbow. Single-arm tricep push-downs are a valuable isolation exercise for building tricep strength and definition. They can be used to address muscular imbalances between the left and right triceps and provide a focused workout for this muscle group. Proper form and control are essential for safe and effective execution.",
+        "img":"single-tri.jpeg",
+        "category":"arms"
+    },
+    {
+        "name":"Rope Tricept Extensions",
+        "description":"Rope tricep extensions, often performed on a cable machine, are a resistance exercise that effectively targets the triceps, the muscles on the back of your upper arm. To execute rope tricep extensions, you typically attach a rope handle to the cable machine, grasp the rope with both hands, and stand with your feet shoulder-width apart. Starting with your hands at head height, you extend your arms downward, while keeping your upper arms stationary and bending only at the elbows. The rope allows for a broader range of motion compared to other tricep exercises, making it an excellent choice for working the triceps from various angles and promoting muscle development and definition. Maintaining proper form and control is crucial for safe and effective execution.",
+        "img":"rope-tri.jpeg",
+        "category":"arms"
+    },
+    {
+        "name":"Lateral Raises",
+        "description":"Lateral raises are a common strength training exercise that focuses on the deltoid muscles in the shoulders, particularly the lateral or side deltoid. To perform a lateral raise, you stand with a dumbbell in each hand, arms at your sides, and then raise the dumbbells out to the sides until they are parallel to the ground. This exercise helps develop broader shoulders and enhances shoulder definition. Lateral raises are often included in upper body workouts and are effective for improving shoulder strength and aesthetics. Proper form and control are essential to maximize the benefits and prevent potential strain or injury.",
+        "img":"lat-raise.jpeg",
+        "category":"arms"
+    },
+    {
+        "name":"Rear Delt Flies",
+        "description":"Rear delt flies, also known as rear deltoid flies or rear delt raises, are a strength training exercise that specifically targets the rear deltoid muscles, located in the back of the shoulders. To perform rear delt flies, you typically use dumbbells or a cable machine. You bend at the hips to keep your back parallel to the ground, and then raise your arms outward to the sides, working against gravity to engage the rear deltoids. This exercise is valuable for building shoulder strength and balance, improving posture, and creating a well-rounded and proportionate shoulder appearance. Proper form and controlled movements are crucial for maximizing the effectiveness of rear delt flies while reducing the risk of injury.",
+        "img":"rear-delt.png",
+        "category":"arms"
+    }
+]

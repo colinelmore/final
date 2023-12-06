@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Squats",
+        "description": "During squats, multiple key muscle groups come into play, including the quadriceps, responsible for knee extension, the gluteus maximus powering hip extension, and the hamstrings providing assistance. Additionally, the lower back muscles maintain spinal stability, and the calfmuscles stabilize the ankles. Squats offer a wide range of benefits, such as building lower body strength and muscle mass, improving functional strength for daily activities and sports, enhancing posture and balance, and increasing flexibility in the hips, knees, and ankles. They also help burn calories, support weight management, boost overall athleticism, and reduce the risk of injury by strengthening the musclesand joints involved in the movement.",
+        "img": "Barbell Squats.jpeg",
+        "category":"legs"
+    },
+    {
+        "name": "Romainian Deadlift",
+        "description": "Romanian deadlifts, often abbreviated as RDLs, are a popular strength training exercise that primarily targets the hamstrings, glutes, and lower back muscles. Unlike conventional deadlifts, which start from the ground, Romanian deadlifts begin from a standing position, and the lifter lowers the barbell or dumbbells down the front of their legs while maintaining a slight knee bend and a straight back. This exercise is renowned for its effectiveness in building posterior chain strength and enhancing hip flexibility. Incorporating Romanian deadlifts into your workout routine can help improve your overall strength and posture while reducing the risk of lower back injuries.",
+        "img": "RDL.jpeg",
+        "category":"legs"
+    },
+    {
+        "name": "Deadlift",
+        "description": "Deadlifts are a fundamental strength training exercise where you lift a barbell or heavy object from the ground to a standing position. This compound movement engages numerous muscle groups, enhancing overall strength, grip, core stability, and back of leg muscles. Deadlifts are a cornerstone of strength and conditioning programs, benefiting posture, muscle growth, and functional strength. Proper form is essential to prevent injuries and maximize results.",
+        "img": "Deadlift.jpeg",
+        "category":"legs"
+    },
+    {
+        "name": "Reverse Lunge",
+        "description": "The reverse lunge is a lower body exercise in which you step backward with one leg, lowering your body until both knees are bent at a 90-degree angle. This movement targets the quadriceps, hamstrings, and glutes while also improving balance and stability. Reverse lunges are a versatile exercise that can be performed with body weight or additional resistance,making them a valuable addition to leg and lower body workouts.",
+        "img": "Reverse Lunge.png",
+        "category":"legs"
+    },
+    {
+        "name": "Leg Extension",
+        "description": "Leg extensions are a common isolation exercise performed on a leg extension machine at the gym. This exercise primarily targets the quadriceps muscles in the front of the thigh. During a leg extension, you sit on the machine with your knees bent at 90 degrees and extend your legs to lift the weight by straightening your knees. Leg extensions are effective for developing and isolating the quadriceps but should be performed with proper form to minimize the risk of injury, especially to the knees. They are often included in leg workouts to improve quad strength and definition.",
+        "img": "Leg Extensions .jpeg",
+        "category":"legs"
+    },
+    {
+        "name": "Calf Raises",
+        "description": "Calf raises are a simple yet effective exercise for strengthening the calf muscles, located in the back of the lower leg. They are commonly done by standing with your feet flat on the ground and then lifting your heels off the floor, going up on your toes. You can perform calf raises with both feet simultaneously or with one foot at a time for added balance and stability. This exercise is valuable for improving calf strength and stability, which can be beneficial for various activities, including walking, running, and sports that require powerful lower leg muscles.",
+        "img": "Calf Raises .jpeg",
+        "category":"legs"
+    }
+]

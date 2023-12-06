@@ -1,0 +1,233 @@
+/* Body Main*/
+body{
+    background-color: darkslategrey; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: burlywood;
+    margin: 150px;
+}
+#main-head{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.WholeBody{
+    text-align: center;
+}
+
+#main-nav li {
+    display: none;
+}
+#main-nav a{
+    text-decoration: none;
+    color: burlywood;
+}
+#main-nav a:hover{
+    text-decoration: underline;
+}
+
+#new-lift{
+    text-align: center;
+}
+
+#small-nav a{
+    text-decoration: none;
+    color: burlywood;
+}
+#small-nav a:hover{
+    text-decoration: underline;
+}
+
+
+#pictures li{
+    display: none;
+}
+
+#hamburger div{
+    width: 35px;
+    height: 5px;
+    background-color: burlywood;
+    margin: 6px 0;
+}
+
+#intro{
+    text-align:center;
+    padding-top: 2px;
+}
+#small-nav{
+    list-style-type: none;
+    color: burlywood;
+}
+#small-nav li{
+    text-align: left;
+    padding: 10px;
+    padding-left: 15px;
+
+    /* center algined -
+    display: inline;
+    text-align: center;
+    */
+}
+
+
+.hidden{
+    display: none;
+}
+#main-p{
+    padding: 20px;
+}
+#small-pic{
+    padding-top: 15px;
+}
+
+/* Lift List*/
+#add-lift{
+    margin-bottom: 15px;
+}
+#remove-lift{
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+#save-lift{
+    margin-left: 7px;
+}
+
+#add-link{
+    font-size: 3em;
+    border: 1px solid red;
+}
+#edit-link{
+    float: right;
+    margin-right: 10px;
+}
+#delete-link{
+    float: right;
+}
+
+#add-edit-food-container{
+    padding:10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+}
+
+.inline{
+    display: inline;
+}
+
+#rating-p input{
+    margin-top: 5px;
+}
+
+#add-food{
+    color: darkblue;
+    font-size: 0.75em;
+    text-align: right;
+}
+
+.dialog{
+    margin: auto;
+    padding: 20px;
+    border: 1px solid gray;
+    width: 100%;
+    display: transparent;
+}
+
+.close{
+    color:gray;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0px 5px;
+}
+
+.close:hover,
+.close:focus{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.add-edit-food-container{
+    display: transparent;
+}
+.transparent{
+    opacity: 0;
+}
+
+/* More Page */
+#more-body{
+    text-align: center;
+}
+#map{
+    text-align: center;
+}
+#main-form{
+    text-align: center;
+    display: inline;
+}
+#form{
+    text-align: center;
+}
+
+/*Larger Res Main*/
+@media (min-width: 900px){
+    #pictures{
+        padding-top: 10px;
+    }
+    #main-nav{
+        text-decoration: none;
+        text-align: right;
+        
+    }
+    #main-nav li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+    }
+    #pictures{
+        text-align: center;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-left: 1px;
+    }
+    #pictures li{
+        display: inline;
+        padding: 40px;
+    }
+    #hamburger div{
+        display: none;
+    }
+    #small-nav{
+        display: none;
+    }
+    #small-pic{
+        display: none;
+    }
+	#lifts{
+        align-items: center;
+        display: flex;
+        padding-left: 100px;
+    }
+    #add-lift{
+        margin-left: 330px;
+    }
+    #lift-p{
+        padding-left: 20px;
+}
+    body{
+        text-align: left;
+    }
+    .WholeBody{
+        margin: auto;
+    }
+}
+/* Medium Width */ 
+@media (min-width: 920px){
+    #pictures{
+        flex: 4;
+    }
+}

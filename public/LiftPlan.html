@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <head>
+        <ul id="main-nav">
+            <li><a href="index.html">Home | </a></li>
+            <li><a href="Legs.html">Legs | </a></li>
+            <li><a href="Back.html">Back | </a></li>
+            <li><a href="Chest.html">Chest | </a></li>
+            <li><a href="Arms.html">Arms | </a></li>
+            <li><a href="Core.html">Core | </a></li>
+            <li><a href="LiftPlan.html">Lift Plan |</a></li>
+            <li><a href="More.html">More</a></li>
+        </ul>
+        <h1 id="main-head">Lift Plan</h1>
+    </head>
+    <div id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul id="small-nav">
+        <li><a href="index.html">Home</a></li>
+            <li><a href="Legs.html">Legs</a></li>
+            <li><a href="Back.html">Back</a></li>
+            <li><a href="Chest.html">Chest</a></li>
+            <li><a href="Arms.html">Arms</a></li>
+            <li><a href="Core.html">Core</a></li>
+            <li><a href="LiftPlan.html">Lift Plan </a></li>
+            <li><a href="More.html">More</a></li>
+    </ul>
+    <body>
+        <!DOCTYPE html>
+        <html>
+        
+        <head>
+            <link rel="stylesheet" href="styles.css" />
+            <script src="dbscript.js"></script>
+        </head>
+        
+        <body>
+            <header>
+                <h1>Your Lifts</h1>
+                <a href="#" id="add-link">+</a>
+            </header>
+        
+            <div class="columns two-columns">
+                <div id="food-list" class="columns"></div>
+                <div id="food-details-column">
+                    <h2>Description</h2>
+        
+                    <div id="food-details"></div>
+                </div>
+            </div>
+            <div id="add-edit-food-container" class="dialog transparent">
+                <span class="close">&times;</span>
+        
+                <h3 id="add-edit-title">New Lift</h3>
+                <form id="add-edit-food-form" method="post">
+                    <input type="hidden" name="_id" value="-1" />
+                    <p>
+                        <label for="name ">Lift Name:</label>
+                        <input type="text" id="name" name="name" required />
+                    </p>
+                    <p>
+                        <label for="description">Description:</label>
+                        <input type="text" id="description" name="description" required />
+                    </p>
+        
+                    <p id="condiments-p ">
+                        <label class="inline">Reps & Weight:</label>
+                        <a href="#" id="add-condiment">Add Lift</a>
+                    <section id="condiment-boxes"></section>
+                    </p>
+                    <p>
+                        <label for="img">Upload Image:</label>
+                        <input type="file" id="img" name="img" />
+                    </p>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+        </body>
+        
+        </html>
+    </body>
+</html>

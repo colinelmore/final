@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Lat-Pulldowns",
+        "description": "During lat pull-downs, the latissimus dorsi muscles, commonly known as the lats, are the primary muscles engaged. These large muscles in the upper back are responsible for the pulling motion as you lower the bar or handle towards your chest. Additionally, the muscles of the shoulders, including the rear deltoids and trapezius, assist in the movement, providing stability and support. The biceps also contribute to the pulling action as secondary muscles. Lat pull-downs are effective for building a strong and well-defined back, improving shoulder strength and stability, and enhancing overall upper body muscular development. They are a fundamental exercise for anyone looking to target their back and improve their posture and upper body strength.",
+        "img" : "lat pulldowns.jpeg",
+        "category":"back"
+    },
+    {
+        "name": "Single Arm Dumbbell Row",
+        "description": "A single-arm dumbbell row is a strength training exercise used to target the muscles in the upper back, particularly the lats (latissimus dorsi), rhomboids, and rear deltoids. To perform this exercise, you stand with one knee and one hand on a bench while holding a dumbbell in the opposite hand. With your back parallelto the floor, you pull the dumbbell towards your hip, engaging your back muscles. Single-arm dumbbell rows help improve back strength and posture while also enhancing balance and stability. It's a versatile exercise that can be incorporated into upper body workouts for a well-rounded strength training routine.",
+        "img": "dumbbell-rows.jpeg",
+        "category": "back"
+    },
+    {
+        "name":"Bent-over Row",
+        "description": "The bent-over row is a compound strength training exercise that primarily targets the muscles in the upper back, including the lats (latissimus dorsi), rhomboids, and rear deltoids. To perform a bent-over row, you typically stand with your feet shoulder-width apart, bend at the hips to lean forward, and hold a barbell or dumbbells with your arms extended toward the floor. You then pull the weight towards your lower ribcage or hip area, engaging your back muscles and squeezing your shoulder blades together. Bent-over rows are effective for developing back strength, improving posture, and enhancing upper body muscle definition. Proper form is essential to prevent injury while reaping the full benefits of this exercise.",
+        "img":"bent rows.jpeg",
+        "category":"back"
+    },
+    {
+        "name":"Incline Dumbbell Row",
+        "description":"The incline dumbbell row is a variation of the traditional bent-over row that specifically targets the upper back muscles and the rear deltoids. To perform this exercise, you sit on an inclined bench with your chest resting against the incline. With a dumbbell in each hand, you allow your arms to hang straight down, and then you row the weights towards your hips or lower ribcage while squeezing your shoulder blades together. Incline dumbbell rows are a great choice for adding variety to your back workout routine and are effective for building upper back strength, improving posture, and enhancing the definition of the rear deltoids. Proper form and control are crucial when performing this exercise.",
+        "img":"incline-dumbbell-rows.jpeg",
+        "category":"back"
+    },
+    {
+        "name":"T-Bar Rows",
+        "description":"T-bar rows are a compound exercise that targets the upper back, especially the latissimus dorsi. Using a T-bar row machine or landmine attachment, you lift a weighted barbell by bending at the hip and pulling it towards your lower ribcage. This exercise is effective for building back strength, improving posture, and enhancing upper body muscle development. Proper form is crucial for safety and optimal results.",
+        "img":"t-bar.jpeg",
+        "category":"back"
+    }
+]

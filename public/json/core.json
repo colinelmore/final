@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Sit-Ups",
+        "description":"Sit-ups primarily engage the rectus abdominis, the front abdominal muscles, and the hip flexors. As you lift your upper body towards your knees, these muscles contract to perform the movement. Sit-ups are effective for strengthening the core muscles and improving abdominal endurance. They also contribute to better posture and can help tone and define the abdominal area when incorporated into a well-rounded fitness routine.",
+        "img":"situp.jpeg",
+        "category":"core"
+    },
+    {
+        "name":"Crunches",
+        "description":"Crunches are a popular abdominal exercise that focuses on strengthening the rectus abdominis, the front abdominal muscles. To perform a crunch, you typically lie on your back with your knees bent and feet flat on the floor. You then place your hands behind your head or across your chest and lift your upper body off the ground by contracting your abdominal muscles. Crunches are a staple in core and abdominal workouts and are effective for developing core strength, improving posture, and enhancing the appearance of the midsection. Proper form, such as not pulling on your neck and keeping your lower back on the ground, is important to avoid strain and maximize the benefits of this exercise.",
+        "img":"crunch.jpeg",
+        "category":"core"
+    },
+    {
+        "name":"Bird-Dog",
+        "description":"Bird-Dogs are a core exercise that strengthens the lower back, abs, and glutes. In this exercise, you extend one arm and the opposite leg simultaneously from a hands-and-knees position. Bird-Dogs improve core stability and balance, making them a useful addition to core workouts for better posture and back health. Proper form is important for effectiveness.",
+        "img":"birddog.jpeg",
+        "category":"core"
+    },
+    {
+        "name":"Dead-Bug",
+        "description":"Dead bugs are a core exercise that targets the abs and lower back. To perform dead bugs, you lie on your back, lift your legs and arms in the air, and then lower one arm and the opposite leg toward the ground, keeping your back pressed to the floor. This exercise enhances core stability, promotes better posture, and reduces the risk of lower back pain when executed with proper form and control.",
+        "img":"deadbug.jpeg",
+        "category":"core"
+    },
+    {
+        "name":"Planks",
+        "description":"Planks are a core-strengthening exercise that involves maintaining a push-up position with your forearms and toes on the ground. In a plank, you hold your body in a straight line, engaging the abdominal, back, and core muscles to support your spine. This exercise is effective for building core strength, improving posture, and enhancing overall stability. Planks are a versatile exercise and come in various forms, such as side planks and forearm planks, offering different challenges for the core and helping to prevent lower back pain when performed with proper form.",
+        "img":"plank.jpeg",
+        "category":"core"
+    }
+]
