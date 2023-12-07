@@ -4,30 +4,33 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     color: burlywood;
-    margin: 150px;
+    margin: 0 150px;
 }
 #main-head{
     text-align: center;
     padding-top: 10px;
 }
 
-.WholeBody{
-    text-align: center;
+a {
+    text-decoration: none;
+    color:burlywood;
+}
+
+#WholeBody{
+    display: block;
+    margin:auto;
 }
 
 /* new stuff */
 .flex-container{
     text-align: center;
 }
-.col1of3{
+
+#lift-section{
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
 }
-
-
-
-
 
 #main-nav li {
     display: none;
@@ -243,16 +246,20 @@ label{
     .flex-container{
         display: flex;
     }
-    .col1of3{
-        max-width: 31%;
+    .lift{
+        max-width: 25%;
+        margin:2%;
+        background:#CFB393;
+        padding:2%;
+        border-radius:5px;
+        color:#4F352F;
     }
-    .assignments{
+
+    .lift p {
+        text-align:left;
+    }
+
+    #lift-section{
         flex-wrap: wrap;
-    }
-}
-/* Medium Width */ 
-@media (min-width: 920px){
-    #pictures{
-        flex: 4;
     }
 }

@@ -72,6 +72,20 @@ const showFoods = async() => {
         img.src = food.img;
         section.append(img);
 
+        const p = document.createElement("p");
+        section.append(p);
+        p.innerHTML = food.description;
+
+        const p3 = document.createElement("p");
+        section.append(p3);
+        p3.innerHTML = "Sets: " + food.sets;
+
+        const p2 = document.createElement("p");
+        section.append(p2);
+        p2.innerHTML = "Reps: " + food.reps;
+
+        
+
         a.onclick = (e) => {
             e.preventDefault();
             displayDetails(food);
@@ -101,13 +115,14 @@ const displayDetails = (food) => {
     foodDetails.append(p);
     p.innerHTML = food.description;
 
-    const p2 = document.createElement("p");
-    foodDetails.append(p2);
-    p2.innerHTML = food.reps;
-
     const p3 = document.createElement("p");
     foodDetails.append(p3);
-    p3.innerHTML = food.sets;
+    p3.innerHTML = "Sets: " + food.sets;
+
+    const p2 = document.createElement("p");
+    foodDetails.append(p2);
+    p2.innerHTML = "Reps: " + food.reps;
+
 
    // const ul = document.createElement("ul");
    // foodDetails.append(ul);
@@ -157,7 +172,8 @@ const populateEditForm = (food) => {
     form.name.value = food.name;
     form.description.value = food.description;
     form.sets.value = food.sets;
-    form.reps.value = food.value;
+    form.reps.value = food.reps;
+
     //populateCondiments(food);
 };
 

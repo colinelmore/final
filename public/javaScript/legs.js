@@ -23,7 +23,7 @@ const getLiftItem = (lift) => {
     console.log(lift);
   
     const img = document.createElement("img");
-    img.src = "https://github.com/colinelmore/final/tree/main/public/pictures/" + lift.img;
+    img.src = "pictures/" + lift.img;
     const h2 = document.createElement("h2");
     h2.innerText = lift.name;
 

@@ -18,7 +18,8 @@ mongoose.connect("mongodb+srv://cmelmore:sxLn585PhQg9P13u@cluster0.av3lgun.mongo
 const foodSchema = new mongoose.Schema({
     name: String,
     description: String,
-    condiments: [String],
+    sets: String,
+    reps: String,
     img: String,
 })
 
@@ -53,8 +54,9 @@ app.post("/api/foods", upload.single("img"), (req, res) => {
     const food = new Food ({
         name: req.body.name,
         description: req.body.description,
+        sets: req.body.sets,
         reps: req.body.reps,
-        sets: reg.body.sets
+        
     });
 
     if(req.file){
@@ -115,8 +117,8 @@ const validateFood = (food) => {
         id : Joi.allow(" "),
         name: Joi.string().min(3).required(),
         description: Joi.string().min(3).required(),
-        reps: Joi.string().min(1).required(),
         sets: Joi.string().min(1).required(),
+        reps: Joi.string().min(1).required(),
 
     });
 
